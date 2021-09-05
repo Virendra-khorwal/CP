@@ -1,3 +1,4 @@
+/* Optimal solution TLE*/
 class Solution {
 public:
     int arrayNesting(vector<int>& nums) {
@@ -26,4 +27,34 @@ public:
              
     return maxi;
     }                   
+};
+
+/* o(n)logic */
+
+class Solution {
+public:
+    int arrayNesting(vector<int>& nums) {
+     
+    int maxi =0;
+    int k;    
+ 
+        for(int i=0;i<nums.size();i++)
+        {
+            int k = i;
+            int count =0;
+            
+            if(nums[i] != -1)
+            {
+                while(nums[k] != -1)
+                {
+                   int y = nums[k];
+                    nums[k] = -1;
+                    k= y;
+                    count++;
+                }
+            }
+          maxi = max(count, maxi);  
+        }
+      return maxi;  
+    }
 };
