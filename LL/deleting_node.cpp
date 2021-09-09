@@ -13,7 +13,6 @@ void inserAfter(Node* Prev_node, int data) {
     if(Prev_node == NULL){
         cout << "it can't be NULL" << endl;
         return;
-
     }
     
     /* alloting the node */
@@ -24,8 +23,6 @@ void inserAfter(Node* Prev_node, int data) {
 
     new_node ->next = Prev_node->next;
     Prev_node->next = new_node;
-
-
 }
 
 void delNode(Node** href_head, int pos){
@@ -59,12 +56,7 @@ void delNode(Node** href_head, int pos){
 
         /* Link prev and next node*/
         temp->next = nextt;
-
-
-    }
-    
-
-
+    }    
 }
 
 void Print(Node* n){
