@@ -15,7 +15,8 @@ public:
 		ListNode* prev = NULL;
 		ListNode* nextNode = NULL;
 
-		while(curr != NULL){
+		while(curr){
+
 			// saving next pointer of the current node to nextNode
 			nextNode = curr -> next;
 
