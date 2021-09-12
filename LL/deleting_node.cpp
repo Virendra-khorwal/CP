@@ -44,7 +44,7 @@ void delNode(Node** href_head, int pos){
             temp = temp->next;
         }
 
-        /* here temp-> is the node which is to be deleted */
+        /* here temp->next is the node which is to be deleted */
         if(temp == NULL || temp->next == NULL){
             return;
         }
