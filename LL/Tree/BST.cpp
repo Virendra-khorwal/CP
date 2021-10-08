@@ -16,6 +16,41 @@ struct Node{
     }
 };
 
+/* for searching in BST */
+bool isPresent(Node* root, int num){
+    if(root == NULL){
+      return NULL;
+    }
+    if(root->data == num){
+      return root;
+    }
+    else if(num > root->data){
+      return isPresent(root->right, num);
+    }
+    else{
+      return isPresent(root->left, num);
+    }
+
+}
+
+/* for checking whether it is BST or not*/
+int isBST(struct  Node* root){
+    static struct Node *prev = NULL;
+    if(root!=NULL){
+        if(!isBST(root->left)){
+            return 0;
+        }
+        if(prev!=NULL && root->data <= prev->data){
+            return 0;
+        }
+        prev = root;
+        return isBST(root->right);
+    }
+    else{
+        return 1;
+    }
+}
+
 void inOrder(struct Node* root){
   if(root!=NULL){
   inOrder(root->left);
@@ -57,7 +92,8 @@ int main(){
     */
 
    inOrder(root);
-
+   cout << isPresent(root, 4)<<endl; 
+   cout<<isBST(root)<<endl;
     return 0;
 
 
