@@ -30,7 +30,22 @@ bool isPresent(Node* root, int num){
     else{
       return isPresent(root->left, num);
     }
+}
 
+/* Iterative appraoch */
+bool iterSearch(Node* root, int num){
+  while(root!=NULL){
+    if(root->data == num){
+      return true;
+    }
+    else if(root->data > num){
+      root = root->left;
+    }
+    else{
+      root = root->right;
+    }
+  }
+  return 0;
 }
 
 /* for checking whether it is BST or not*/
@@ -92,7 +107,7 @@ int main(){
     */
 
    inOrder(root);
-   cout << isPresent(root, 4)<<endl; 
+   cout <<endl<< iterSearch(root, 4)<<endl; 
    cout<<isBST(root)<<endl;
     return 0;
 
