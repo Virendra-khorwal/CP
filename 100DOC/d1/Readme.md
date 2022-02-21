@@ -1,8 +1,8 @@
 
 # DAY 1 
-**Problem 1**: [Reverse The Array](https://www.codingninjas.com/codestudio/problems/reverse-the-array_1262298)
+** Problem 1 **: [Reverse The Array](https://www.codingninjas.com/codestudio/problems/reverse-the-array_1262298)
 
-**Solution **
+** Solution **
 ```c++
 void reverseArray(vector<int> &arr , int m)
 {
@@ -17,9 +17,9 @@ void reverseArray(vector<int> &arr , int m)
 
 ```
 
-Problen 2: [Sum of Digits](https://www.codingninjas.com/codestudio/problems/sum-of-digits_1464021?leftPanelTab=0)
+** Problen 2 **: [Sum of Digits](https://www.codingninjas.com/codestudio/problems/sum-of-digits_1464021?leftPanelTab=0)
 
-Solution
+** Solution **
 ```c++
 int sumofDigits(int n)
 {
