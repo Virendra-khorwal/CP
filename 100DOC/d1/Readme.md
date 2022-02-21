@@ -1,8 +1,8 @@
 
-#DAY 1 
-Problem 1: [Reverse The Array](https://www.codingninjas.com/codestudio/problems/reverse-the-array_1262298)
+# DAY 1 
+**Problem 1**: [Reverse The Array](https://www.codingninjas.com/codestudio/problems/reverse-the-array_1262298)
 
-Solution 
+**Solution **
 ```c++
 void reverseArray(vector<int> &arr , int m)
 {
