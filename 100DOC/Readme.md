@@ -2,5 +2,5 @@
 
 This repo contain CP problems with solution.
 
-### [Day 1](https://github.com/Virendra-khorwal/CP/tree/main/100DOC/Day1)
-### [Day 2](https://github.com/Virendra-khorwal/CP/tree/main/100DOC/Day2)
+### [Day 1](https://github.com/Virendra-khorwal/CP/tree/main/100DOC/Day%201)
+### [Day 2](https://github.com/Virendra-khorwal/CP/tree/main/100DOC/Day%202)
