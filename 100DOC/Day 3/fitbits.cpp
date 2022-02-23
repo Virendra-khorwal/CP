@@ -5,9 +5,13 @@ int flipBits(int* arr, int n)
     int maxsum =0;
     int count =0;
     
+   for(int i=0;i<n;i++){
+   if(arr[i] == 1){
+   count++;
+   }
+   }
     for(int i=0;i<n;i++){
         if(arr[i] == 1){
-            count++;
             arr[i] = -1;
         }
         else{
