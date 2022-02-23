@@ -23,10 +23,3 @@ bool checkPalindrome(string s)
 
 ```
 
-<!-- Problem 2: [K-divisible Sum](https://codeforces.com/problemset/problem/1476/A)
-
-Solution:
-```c++
-
-
-``` -->
