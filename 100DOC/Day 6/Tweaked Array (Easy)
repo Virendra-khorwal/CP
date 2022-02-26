@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+
+vector<int> tweakTheArray(vector<int> arr, int n){
+    // Write your code here.
+    int sum = accumulate(arr.begin(), arr.end() ,0);
+    vector<int>v;
+    
+    for(int i=0;i<n;i++){
+        v.push_back(sum - arr[i]);
+    }
+    return v;
+}
