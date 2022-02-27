@@ -10,3 +10,5 @@ This repo contain CP problems with solution.
 ### [Day 3](https://github.com/Virendra-khorwal/CP/tree/main/100DOC/Day%203)
 - Pair Sum
 
+### [Day 6](https://github.com/Virendra-khorwal/CP/tree/main/100DOC/Day%206)
+- Container With Most Water
