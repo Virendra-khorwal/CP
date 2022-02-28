@@ -12,3 +12,6 @@ This repo contain CP problems with solution.
 
 ### [Day 6](https://github.com/Virendra-khorwal/CP/tree/main/100DOC/Day%206)
 - Container With Most Water
+
+### [Day 7](https://github.com/Virendra-khorwal/CP/tree/main/100DOC/Day%207)
+- Sort 0 1 2
